@@ -1,0 +1,112 @@
+/* Estilo General */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección Principal */
+.hero {
+    background-color: #004080;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero .btn {
+    background-color: white;
+    color: #004080;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Sobre mí */
+.sobremi {
+    display: flex;
+    padding: 50px;
+    background-color: white;
+}
+
+.sobremi img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.sobremi .texto {
+    max-width: 600px;
+}
+
+/* Portafolio */
+.portafolio {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portafolio .proyecto {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Contacto */
+.contacto {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.imagen-contenedor {
+    max-width: 800px; /* Tamaño máximo del contenedor */
+    margin: 0 auto; /* Centra la imagen en la página */
+}
+
+img {
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* Evita que se agrande más de su tamaño original */
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Tu Nombre</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremi">Sobre Mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="inicio" class="hero">
+        <h2>Administrador de Bases de Datos</h2>
+        <p>Especialista en Oracle y MS SQL Server</p>
+        <a href="#portafolio" class="btn">Ver Portafolio</a>
+        <a href="#contacto" class="btn">Contactar</a>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobremi" class="sobremi">
+        <img src="mi-imagen-2.jpg" alt="Tu Foto">
+        <div class="texto">
+            <h3>Sobre Mí</h3>
+            <p>Soy un profesional con X años de experiencia en administración de bases de datos...</p>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio" class="portafolio">
+        <h3>Proyectos Recientes</h3>
+        <div class="proyecto">
+            <img src="proyecto1.jpg" alt="Proyecto 1">
+            <p>Descripción del proyecto 1...</p>
+        </div>
+        <div class="proyecto">
+            <img src="proyecto2.jpg" alt="Proyecto 2">
+            <p>Descripción del proyecto 2...</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <h3>Contacto</h3>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+    <!-- Incluir el archivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
