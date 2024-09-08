@@ -110,3 +110,46 @@ img {
     max-width: 100%; /* Evita que se agrande más de su tamaño original */
 }
 
+#contacto {
+    max-width: 600px;
+    margin: 0 auto; /* Centra el formulario */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Los elementos se alinean en columna */
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Asegura que los inputs ocupen todo el ancho disponible */
+    box-sizing: border-box; /* Evita que el padding influya en el tamaño */
+}
+
+form textarea {
+    resize: vertical; /* Permite que el usuario cambie el tamaño vertical */
+    height: 150px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
