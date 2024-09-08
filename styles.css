@@ -75,10 +75,49 @@ header nav ul li a {
     text-align: center;
 }
 
+
 .portafolio .proyecto {
     display: inline-block;
     margin: 20px;
 }
+
+
+/*-----------------------------------------------------------------------------*/
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta la cantidad de columnas automáticamente */
+    gap: 20px; /* Espacio entre los proyectos */
+}
+
+.proyecto {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .proyecto {
+        width: calc(50% - 20px); /* Dos proyectos por fila en tabletas */
+    }
+}
+
+@media (max-width: 480px) {
+    .proyecto {
+        width: 100%; /* Un proyecto por fila en móviles */
+  }
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
 
 /* Contacto */
 .contacto {
